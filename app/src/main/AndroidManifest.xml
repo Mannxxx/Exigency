@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.exigency">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Exigency"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.exigency.driverresponse"></activity>
+        <activity android:name="com.example.exigency.viewreq" />
+        <activity android:name="com.example.exigency.AccdientLoc" />
+        <activity android:name="com.example.exigency.selectdriver" />
+        <activity android:name="com.example.exigency.useside" />
+        <activity android:name="com.example.exigency.drivside" />
+        <activity android:name="com.example.exigency.driver_info" />
+        <activity android:name="com.example.exigency.showdata" />
+        <activity android:name="com.example.exigency.driverreg" />
+        <activity android:name="com.example.exigency.userreg" />
+        <activity android:name="com.example.exigency.registration" />
+        <activity android:name="com.example.exigency.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

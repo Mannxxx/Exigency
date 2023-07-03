@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "319503931518",
+    "firebase_url": "https://pushnotification-28b8a.firebaseio.com",
+    "project_id": "pushnotification-28b8a",
+    "storage_bucket": "pushnotification-28b8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319503931518:android:53a1ed67810db7b731202f",
+        "android_client_info": {
+          "package_name": "com.example.exergies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319503931518-8gj3m4j0mcn95pos3672cmv62hc80cbg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.exergies",
+            "certificate_hash": "48738fa3613ebc2293d49f9066c6f55fc1597e31"
+          }
+        },
+        {
+          "client_id": "319503931518-8aljtpr4plifr6rtl2n20klmi6oipbl3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPpMmYTic7rTIZeBaCxokfUxOds8i4gn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319503931518-8aljtpr4plifr6rtl2n20klmi6oipbl3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
